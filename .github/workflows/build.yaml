@@ -9,7 +9,7 @@ on:
       - 'docs/**'
       - '**/.github/CODEOWNERS'
       - '**/.github/workflows/**'
-      
+
 jobs:
   build:
     runs-on: self-hosted
