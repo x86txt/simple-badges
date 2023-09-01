@@ -12,3 +12,6 @@
 
 > [!IMPORTANT]
 > This is a fork of the official [simple-badges](https://badges.pages.dev/) repo, updated to nodejs 18.x. for AWS App Runner.
+
+### want to use this mirror?<br />
+hosted at <a href="https://badges.secunit.io">https://badges.secunit.io</a> in aws app runner, protected by cloudflare
