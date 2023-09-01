@@ -1,9 +1,6 @@
 name: 'build and push to ecr'
 
 on:
-  workflow_dispatch:
-    branches:
-      - 'main'
   push:
     branches:
       - 'main'
@@ -13,12 +10,6 @@ on:
       - '**/.github/CODEOWNERS'
       - '**/.github/workflows/**'
       
-  pull_request:
-    branches:
-      - 'main'
-  repository_dispatch:
-    types: source-code-update-detected
-
 jobs:
   build:
     runs-on: self-hosted
@@ -45,9 +36,3 @@ jobs:
         run: |
           docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-
-      - name: update Lambda to use latest docker image
-        uses: int128/deploy-lambda-action@v1
-        with: 
-          function-name: simple-badges
-          image-uri: 663135667448.dkr.ecr.us-east-1.amazonaws.com/simple-badges:latest
