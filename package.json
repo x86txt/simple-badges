@@ -57,5 +57,10 @@
   },
   "dependencies": {
     "simple-icons": "9.11.0"
+  },
+  {
+    "lint-staged": {
+      "**/*": "prettier --write --ignore-unknown"
+    }
   }
 }
