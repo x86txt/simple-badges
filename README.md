@@ -1,6 +1,5 @@
 <p align="center">
 <h2 align="center">unofficial simple-badges repo</h2>
-<h4 align="center">hosted at <a href="https://badges.secunit.io">https://badges.secunit.io</a> in aws app runner, protected by cloudflare</h4>
 </p>
 <p align="center">
 <a href="https://uptime.betterstack.com/?utm_source=status_badge"><img src="https://uptime.betterstack.com/status-badges/v1/monitor/tvre.svg"></a>
