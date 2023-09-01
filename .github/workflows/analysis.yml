@@ -1,4 +1,4 @@
-name: Analysis
+name: CodeQL Analysis
 on:
   schedule:
     - cron: '0 0 1 * *'
