@@ -27,14 +27,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - uses: actions/cache@v2
+      - uses: actions/cache@v3
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Cache build
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: .cache/webpack
           key: ${{ runner.os }}-build-${{ hashFiles('**/package-lock.json') }}
@@ -45,7 +45,7 @@ jobs:
       - name: Build website
         run: npm run build
       - name: Run Lighthouse
-        uses: treosh/lighthouse-ci-action@v9
+        uses: treosh/lighthouse-ci-action@v10
         with:
           configPath: ./lighthouserc.json
           uploadArtifacts: true
