@@ -1,3 +1,6 @@
+> [!IMPORTANT]  
+> This is a fork on the official simple-badges repo, updated to nodejs 20.x.
+
 <p align="center">
 <a href="https://simpleicons.org/">
 <img src="https://simpleicons.org/icons/simpleicons.svg" alt="Simple Icons" width=64 height=64>
@@ -7,7 +10,7 @@
 </a>
 <h3 align="center">Simple Badges: <em>Website</em></h3>
 <p align="center">
-    Awesome Simple Icons on your favorite Shields.io Badges. Find it at <a href="https://badges.pages.dev/">Here</a>.</p>
+    Awesome Simple Icons on your favorite Shields.io Badges. Find it at <a href="https://badges.secunit.io/">Here</a>.</p>
 </p>
 
 ## What is this?

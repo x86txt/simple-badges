@@ -5,7 +5,7 @@
   "private": "true",
   "repository": {
     "type": "git",
-    "url": "git@github.com:developStorm/simple-badges.git"
+    "url": "git@github.com:x86txt/simple-badges.git"
   },
   "author": "Simple Badges Collaborators",
   "license": "CC0-1.0",
@@ -49,7 +49,7 @@
     "pug": "3.0.2",
     "pug-loader": "2.4.0",
     "puppeteer": "13.4.1",
-    "webpack": "5.70.0",
+    "webpack": "5.88.2",
     "webpack-cli": "4.9.2"
   },
   "engine": {
