@@ -1,5 +1,5 @@
-> [!IMPORTANT]  
-> This is a fork on the official simple-badges repo, updated to nodejs 20.x.
+> [!IMPORTANT]
+> This is a fork on the official simple-badges repo, updated to nodejs 18.x. for AWS App Runner
 
 <p align="center">
 <a href="https://simpleicons.org/">
@@ -17,7 +17,7 @@
 Simple Badges is a fork of the [original](https://github.com/simple-icons/simple-icons-website) Simple Icons website, which made a combination of original icons with multiple styles of [Shields.io](https://shields.io/) badges to help you to find your favorite badges in a easy way.
 
 ## Where can I use this?
-I've seen people use Shields.IO badges for various scenarios, the most common one is use it for your GitHub [profile README](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) to showcase your skills ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=fff&style=flat-square), your software ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=fff&style=flat-square) or even things you like ![Minecraft](https://img.shields.io/badge/Minecraft-62B47A?logo=minecraft&logoColor=fff&style=flat-square). 
+I've seen people use Shields.IO badges for various scenarios, the most common one is use it for your GitHub [profile README](https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme) to showcase your skills ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=fff&style=flat-square), your software ![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=fff&style=flat-square) or even things you like ![Minecraft](https://img.shields.io/badge/Minecraft-62B47A?logo=minecraft&logoColor=fff&style=flat-square).
 
 However, that is certainly not its only use. **Be creative!**
 
@@ -26,7 +26,7 @@ However, that is certainly not its only use. **Be creative!**
 2. Choice a style of badge to copy its URL
 3. Link the image wherein you wish!
 
-**That's it!** You can check [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for details about adding image to your README. 
+**That's it!** You can check [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) for details about adding image to your README.
 
 ## Q&A
 ### How often this page is updated?
